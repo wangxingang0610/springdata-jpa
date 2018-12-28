@@ -10,6 +10,8 @@ public class Person {
 
     private Integer id;
 
+    private Integer age;
+
     private String name;
 
     private String email;
@@ -86,6 +88,14 @@ public class Person {
         this.address = address;
     }
 
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 
     @Override
     public String toString() {
